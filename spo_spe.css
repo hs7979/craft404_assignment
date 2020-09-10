@@ -1,0 +1,149 @@
+body {
+  background:#012656 0% 0% no-repeat padding-box;
+}
+
+#spe_head {
+text-align: center;
+font: normal normal bold  ;
+font-size: 50px;
+font-family: sans-serif;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+#trd {
+top: 5859px;
+left: 1772px;
+width: 148px;
+height: 341px;
+transform: matrix(0, -1, 1, 0, 0, 0);
+border: 3px solid #FFFFFF;
+opacity: 1;
+}
+
+#sp1 {
+  width: 150px;
+  height: 150px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#sp2 {
+  width: 150px;
+  height: 150px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#sp3{
+width: 150px;
+height: 150px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#spologo{
+  position: relative;
+  left: 7%;
+}
+#spe_pics{
+  position: relative;
+  bottom:6%;
+  left: 5%;
+}
+#spep{
+  border-radius: 24px 24px 0px 0px;
+}
+#info{
+  position: relative;
+  left: 5%;
+}
+#pic_template{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 40px 80px #00000063;
+border-radius: 24px;
+opacity: 1;
+display:inline-block;
+}
+#pic_template2{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 40px 80px #00000063;
+  border-radius: 24px;
+  opacity: 1;
+  position:relative;
+  right:29%;
+  display:inline-block;
+  }
+#comp{
+  text-align: left;
+  font: normal normal medium 32px/48px sans-serif;
+  letter-spacing: 0px;
+  color: #012656;
+  opacity: 1;
+}
+#sn{
+  text-align: left;
+  font: normal normal bold 32px/48px sans-serif;
+  letter-spacing: 0px;
+  color: #305BC9;
+  opacity: 1;
+}
+#regbut{
+width:400px;
+height: 50px;
+color: #FFFFFF;
+background: #305BC9 0% 0% no-repeat padding-box;
+box-shadow: 0px 24px 48px #00000038;
+border-radius: 8px;
+opacity: 1;
+}
+#RegFor{
+  position: relative;
+  top:20%;
+  right:10%;
+}
+#arr{
+  position: relative;
+  bottom: 25%;
+  left:2%;
+  display:inline-block;
+  z-index: -1;
+}
+#cir{
+  width: 120px;
+  height: 120px;
+  position: relative;
+  bottom:40%;
+  right:10%;
+  display:inline-block;
+  z-index:-1;
+}
+#rec{
+  position: relative;
+  display: inline-block;
+  right:5%;
+  top:6%;
+  height: 120px;
+  width: 200px;
+  z-index: -1;
+}
+#tri{
+  position:relative;
+  display:inline-block;
+  left:90%;
+  bottom:40%;
+  z-index:-1;
+  transform: rotate(270deg);
+}
+#days{
+  z-index:-1;
+}
+#spon{
+  position: relative;
+  z-index:-2;
+  bottom:8%;
+}
+#price{
+  color:azure; 
+  font-weight:bold; 
+  font-size:72px;
+}
