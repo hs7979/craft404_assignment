@@ -1,5 +1,7 @@
 body {
+  margin:auto;
   background:#012656 0% 0% no-repeat padding-box;
+  text-align: center;
 }
 
 #spe_head {
@@ -23,6 +25,7 @@ opacity: 1;
 }
 
 #sp1 {
+
   width: 150px;
   height: 150px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -41,9 +44,10 @@ height: 150px;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 opacity: 1;
 }
-#spologo{
-  position: relative;
-  left: 7%;
+#spologo2{
+  width:100%;
+  
+  margin: auto;
 }
 #spe_pics{
   position: relative;
@@ -52,10 +56,6 @@ opacity: 1;
 }
 #spep{
   border-radius: 24px 24px 0px 0px;
-}
-#info{
-  position: relative;
-  left: 5%;
 }
 #pic_template{
 background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -88,7 +88,7 @@ display:inline-block;
   opacity: 1;
 }
 #regbut{
-width:400px;
+width:50%;
 height: 50px;
 color: #FFFFFF;
 background: #305BC9 0% 0% no-repeat padding-box;
@@ -99,7 +99,6 @@ opacity: 1;
 #RegFor{
   position: relative;
   top:20%;
-  right:10%;
 }
 #arr{
   position: relative;
@@ -146,4 +145,28 @@ opacity: 1;
   color:azure; 
   font-weight:bold; 
   font-size:72px;
+}
+img { max-width: 100%; }
+/* #info{
+  position: relative;
+  margin-left: 10%;
+}
+#info_list{
+  align-content: center;
+  align-self: center;
+} */
+img#sp1.ui.medium.circular.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+img#sp2.ui.medium.circular.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+img#sp3.ui.medium.circular.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
 }
