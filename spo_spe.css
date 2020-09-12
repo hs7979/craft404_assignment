@@ -13,17 +13,6 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 }
-
-#trd {
-top: 5859px;
-left: 1772px;
-width: 148px;
-height: 341px;
-transform: matrix(0, -1, 1, 0, 0, 0);
-border: 3px solid #FFFFFF;
-opacity: 1;
-}
-
 #sp1 {
 
   width: 150px;
@@ -51,8 +40,7 @@ opacity: 1;
 }
 #spe_pics{
   position: relative;
-  bottom:6%;
-  left: 5%;
+  top: 5%;
 }
 #spep{
   border-radius: 24px 24px 0px 0px;
@@ -70,7 +58,7 @@ display:inline-block;
   border-radius: 24px;
   opacity: 1;
   position:relative;
-  right:29%;
+  /* right:29%; */
   display:inline-block;
   }
 #comp{
@@ -100,46 +88,43 @@ opacity: 1;
   position: relative;
   top:20%;
 }
-#arr{
+img#arr{
   position: relative;
-  bottom: 25%;
-  left:2%;
+  right:29%;
   display:inline-block;
-  z-index: -1;
+  z-index: -2;
 }
-#cir{
+img#cir{
   width: 120px;
   height: 120px;
   position: relative;
-  bottom:40%;
   right:10%;
-  display:inline-block;
-  z-index:-1;
+  z-index:-3;
 }
-#rec{
+img#rec{
   position: relative;
-  display: inline-block;
-  right:5%;
-  top:6%;
+  left:10%;
   height: 120px;
   width: 200px;
-  z-index: -1;
+  z-index: -4;
 }
-#tri{
+img#tri{
   position:relative;
-  display:inline-block;
-  left:90%;
-  bottom:40%;
-  z-index:-1;
+  left:47.5%;
+  height: 300px;
+  width:200px;
+  z-index:-5;
   transform: rotate(270deg);
-}
-#days{
-  z-index:-1;
 }
 #spon{
   position: relative;
-  z-index:-2;
-  bottom:8%;
+  z-index:-1;
+  bottom:50%;
+}
+#info{
+  position: relative;
+  bottom:30%;
+  margin: 0px;
 }
 #price{
   color:azure; 
@@ -169,4 +154,30 @@ img#sp3.ui.medium.circular.image{
   display: block;
   margin-left: auto;
   margin-right: auto 
+}
+div#tem1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content ;
+  position: relative;
+  bottom: 10%;
+}
+div#tem2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: max-content ;
+  bottom: 10%;
+}
+#day1{
+  position: relative;
+  z-index: -2;
+  top:10%
+}
+#day2{
+  position: relative;
+  z-index: -2;
+  top:10%
 }
