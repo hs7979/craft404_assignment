@@ -76,7 +76,7 @@ display:inline-block;
   opacity: 1;
 }
 #regbut{
-width:30%;
+width:340px;
 height: 50px;
 color: #FFFFFF;
 background: #305BC9 0% 0% no-repeat padding-box;
@@ -103,7 +103,6 @@ opacity: 1;
 }
 /* img { max-width: 100%; } */
 img#atcraft{
-  max-width: 80px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -142,10 +141,10 @@ div#tem2{
 #day1{
   position: relative;
   z-index: -2;
-  top:10%
+  bottom: 4%;
 }
 #day2{
   position: relative;
   z-index: -2;
-  top:10%
+  bottom: 4%;
 }
