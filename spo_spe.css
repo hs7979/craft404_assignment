@@ -9,33 +9,33 @@ text-align: center;
 font: normal normal bold  ;
 font-size: 50px;
 font-family: sans-serif;
+font-weight: bold;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 }
 #sp1 {
 
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 #sp2 {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 #sp3{
-width: 150px;
-height: 150px;
+width: 120px;
+height: 120px;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 opacity: 1;
 }
 #spologo2{
   width:100%;
-  
   margin: auto;
 }
 #spe_pics{
@@ -83,6 +83,7 @@ background: #305BC9 0% 0% no-repeat padding-box;
 box-shadow: 0px 24px 48px #00000038;
 border-radius: 8px;
 opacity: 1;
+z-index:+2;
 }
 #RegFor{
   position: relative;
@@ -101,7 +102,6 @@ opacity: 1;
   font-weight:bold; 
   font-size:72px;
 }
-/* img { max-width: 100%; } */
 img#atcraft{
   display: block;
   margin-left: auto;
@@ -147,4 +147,33 @@ div#tem2{
   position: relative;
   z-index: -2;
   bottom: 4%;
+}
+#spek{
+  position: relative;
+  z-index:-1;
+  bottom:6%;
+  height:10px;
+}
+#spok{
+  position: relative;
+  z-index:-1;
+  bottom:7%;
+  height:10px;
+}
+#crat{
+  position: relative;
+  z-index:-1;
+  bottom:7%;
+}
+#patt_1{
+  position: relative;
+  z-index:-3;
+  margin-right: 90%;
+  bottom:50%;
+}
+#patt_2{
+  position: relative;
+  z-index:+1;
+  margin-left: 10%;
+  bottom:60%;
 }
