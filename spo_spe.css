@@ -34,7 +34,7 @@ opacity: 1;
   border-radius: 50%;
 }
 #spologo2{
-  width:100%;
+  width:80%;
   margin: auto;
 }
 #spe_pics{
@@ -49,7 +49,10 @@ background: #FFFFFF 0% 0% no-repeat padding-box;
 box-shadow: 0px 40px 80px #00000063;
 border-radius: 24px;
 opacity: 1;
-display:inline-block;
+width: 60%;
+display:block;
+margin-right: auto;
+margin-left: auto;
 }
 #pic_template2{
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -57,8 +60,10 @@ display:inline-block;
   border-radius: 24px;
   opacity: 1;
   position:relative;
-  /* right:29%; */
-  display:inline-block;
+  width:60%;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
   }
 #comp{
   text-align: left;
@@ -69,7 +74,9 @@ display:inline-block;
 }
 #sn{
   text-align: left;
-  font: normal normal bold 32px/48px sans-serif;
+  font-size:1.5em;
+  font-family:sans-serif;
+  font-weight: bold;
   letter-spacing: 0px;
   color: #305BC9;
   opacity: 1;
@@ -94,7 +101,11 @@ z-index:+2;
 }
 #info{
   position: relative;
-  margin: 0px;
+  margin-left: 2%;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
 }
 #price{
   color:azure; 
@@ -116,36 +127,20 @@ img#sp3{
   margin-left: auto;
   margin-right: auto 
 }
-div#tem1{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: max-content ;
-  position: relative;
-  bottom: 10%;
-}
-div#tem2{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  width: max-content ;
-  bottom: 10%;
-}
 #day1{
   position: relative;
   z-index: -2;
-  bottom: 4%;
+  top:2%;
 }
 #day2{
   position: relative;
   z-index: -2;
-  bottom: 4%;
+  top: 2%;
 }
 #spek{
   position: relative;
   z-index:-1;
-  bottom:4%;
+  bottom:5%;
   height:10px;
 }
 #spok{
