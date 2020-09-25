@@ -75,7 +75,7 @@ display:inline-block;
   opacity: 1;
 }
 #regbut{
-width:340px;
+width:20em;
 height: 50px;
 color: #FFFFFF;
 background: #305BC9 0% 0% no-repeat padding-box;
@@ -100,13 +100,6 @@ z-index:+2;
   color:azure; 
   font-weight:bold; 
   font-size:72px;
-}
-img#atcraft{
-  display: block;
-  position: relative;
-  top:10px;
-  margin-left: auto;
-  margin-right: auto;
 }
 img#sp1{
   display: block;
@@ -184,9 +177,6 @@ div#tem2{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* background:#305BC9 0% 0% no-repeat padding-box;  */
-  /* box-shadow: 0px 24px 48px #00000038; */
-  
   opacity: 1; 
   align-self: center;
 }
